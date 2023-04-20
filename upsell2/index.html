@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+  <head>
+    <!-- SCRIPTS VÃO AQUI -->
+    <title>Program D21</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      id="google-fonts-1-css"
+      href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap&amp;ver=6.1.1"
+      media="all"
+    />
+    <link href="https://fonts.gstatic.com" crossorigin="" rel="preconnect" />
+    <link
+      rel="prerender"
+      href="https://scripts.converteai.net/906522e7-03c4-4f2a-9735-089350da2e69/players/6434de634c45d90008fc543f/embed.html"
+    />
+    <link
+      rel="preload"
+      href="https://scripts.converteai.net/906522e7-03c4-4f2a-9735-089350da2e69/players/6434de634c45d90008fc543f/player.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://images.converteai.net/906522e7-03c4-4f2a-9735-089350da2e69/players/6434de634c45d90008fc543f/thumbnail.jpg"
+      as="image"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.converteai.net/906522e7-03c4-4f2a-9735-089350da2e69/6434de504c45d90008fc543e/playlist.m3u8"
+      as="fetch"
+    />
+    <script>
+ function addSrc() {
+          // Início da config
+          var keyOnCurrentUrl = '_o'; //nome da chave a ser procurada na url da página
+          var newKeyOnLinks = '_o'; //nome da chave a ser inserida nos links
+          var links = window.document.querySelectorAll("a"); //selector pro escopo do script
+          var previousSrc = window.location.search.match(/_o=(.*?)(:?\&|#|$)/);
+          var sourceValue = !previousSrc ? '' : previousSrc[1]; //valor a ser inserido
+          // Fim da Config
+          //
+          for (var i in links) {
+              if (typeof links[i].href !== "string") return;
+              links[i].href = links[i].href.replace(
+                  /(^.*?)(?:\?(.*?))?(#.*|$)/,
+                  function (match, urlAndPath, originalQueryString, anchor) {
+                      var newQueryString = [];
+                      var keyExistsOnCurrentUrl = false;
+                      if (typeof originalQueryString === "string") {
+                          newQueryString = originalQueryString.split("&").reduce(function (queryString, queryPart) {
+                              if (!queryPart.startsWith(keyOnCurrentUrl + '='))
+                                  queryString.push(queryPart)
+                              else {
+                                  keyExistsOnCurrentUrl = true;
+                                  var data = queryPart.split("=")
+                                  queryString.push(newKeyOnLinks + "=" + sourceValue + "_" + data[1]);
+                              }
+                              return queryString;
+                          }, []);
+                      }
+                      if (!keyExistsOnCurrentUrl) {
+                          newQueryString.push(newKeyOnLinks + "=" + sourceValue);
+                      }
+                      return urlAndPath + "?" + newQueryString.join("&") + anchor;
+                  }
+              );
+          }
+      }
+window.addEventListener("load", addSrc);
+</script>
+    <link rel="dns-prefetch" href="https://cdn.converteai.net" />
+    <link rel="dns-prefetch" href="https://scripts.converteai.net" />
+    <link rel="dns-prefetch" href="https://images.converteai.net" />
+    <link rel="dns-prefetch" href="https://api.vturb.com.br" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="robots" content="noindex" />
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- ======== Conteúdo do corpo da página =========== -->
+      <div id="banner">
+        <div class="banner py-lg-1 py-sm-1 px-sm-1 center">
+          <div class="center">
+            <strong>ETAPA 2 de 2:</strong>
+            Atenção, não feche ou atualize essa página, isso pode gerar erros na
+            sua compra.
+          </div>
+        </div>
+        <br />
+      </div>
+      <!-- ========= TITULOS ========== -->
+      <div id="titulos" class="section">
+        <br />
+        <div class="container">
+          <img src="../pz/assets/stop.png" width="200" alt="" />
+
+          <h1 class="titulo">POR FAVOR, LEIA ESTA PÁGINA COM MUITO CUIDADO!</h1>
+          <br />
+          <h1 class="sub-titulo">
+            Deixe-me parabenizá-la novamente por obter acesso a este guia!
+          </h1>
+          <br />
+          <h1 class="sub-titulo-pequeno">
+            Sei que você vai aproveitar muito e estou ansioso para ouvir sua
+            história de sucesso depois de conquistar o corpo que você merece!
+          </h1>
+          <br />
+          <h1 class="sub-titulo">
+            Mas, agora e aqui nessa página eu tenho uma proposta final para
+            fazer a você que inclusive não tem nada a ver com a anterior…
+            <br /><br />
+            É algo especial e de ainda mais valor.
+            <br /><br />
+            Por isso, não feche ou atualize essa página, leia o texto abaixo com
+            atenção, é realmente muito importante:
+          </h1>
+          <br />
+          <h1 class="sub-titulo-pequeno">
+            99% das nossas alunas querem ficar ainda mais atraentes e melhorar
+            os seus resultados, conseguindo esculpir um corpo realmente bonito e
+            que chama atenção de todas as pessoas.
+            <br /><br />
+            Se você é como 99% das nossas alunas e gostaria de ficar mais linda
+            e atraente, eu tenho um convite para te fazer.
+            <br /><br />
+            Muitas das nossas alunas reclamam que mesmo conseguindo emagrecer,
+            elas sofrem com um bumbum pequeno, feio e caído...
+            <br /><br />
+            Realmente, ter um bumbum pequeno e caído é extremamente brochante e
+            nada atraente!
+            <br /><br />
+            Mas não se preocupe que eu tenho uma boa notícia para você…
+            <br /><br />
+            Simplesmente por ver as nossas alunas tão desanimadas por terem um
+            bumbum pequeno, resolvi criar um programa adicional que vai resolver
+            esse problema de uma vez por todas.
+            <br /><br />
+            Apresento a você o que eu chamo de: “Programa Bumbum Perfeito”...
+            <br /><br />
+            Foram meses e meses de pesquisas e estudos para chegar a esse
+            programa poderoso que apresento a você hoje…
+            <br /><br />
+            Com esse programa vou mostrar a você as etapas exatas e instruções
+            específicas para ajudá-la a dobrar o tamanho e a firmeza do seu
+            bumbum em apenas 6 semanas…
+          </h1>
+          <br />
+          <h1 class="sub-titulo">
+            Já imaginou você com um bumbum grande, empinado e durinho igual esse
+            abaixo?
+          </h1>
+          <br />
+          <img src="../pz/assets/resultado.jpeg" width="200" alt="" />
+          <br />
+          <h1 class="sub-titulo-pequeno">
+            Isso está mais próximo do que você imagina...
+            <br /><br />
+
+            Com esse programa você vai poder:
+            <br /><br />
+
+            Aumentar e empinar o seu bumbum em apenas 6 semanas…
+            <br /><br />
+
+            Ficar mais bonita e atraente aos olhos das outras pessoas
+            (principalmente os homens)...
+          </h1>
+          <br />
+          <h1 class="sub-titulo">
+            Essa oportunidade só é aberta para mulheres inteligentes que tomaram
+            uma ação como você, portanto, esteja ciente que deixar essa
+            oportunidade passar é o mesmo que perdê-la para sempre!
+          </h1>
+          <br />
+          <h1 class="sub-titulo-pequeno">
+            Geralmente eu cobro R$ 300 reais por esse programa fora daqui…
+            <br /><br />
+
+            Mas como você confiou em mim, eu quero presentear você…
+            <br /><br />
+
+            Por isso vou fazer algo que pode parecer loucura para algumas
+            pessoas…
+            <br /><br />
+
+            Hoje você não vai pagar R$ 300 reais para ter acesso a esse
+            programa…
+            <br /><br />
+
+            Não vai precisar pagar nem mesmo R$ 200 reais…
+            <br /><br />
+
+            Aqui nesta página você terá a oportunidade de adicionar esse
+            programa ao seu pacote por MENOS DA METADE DO VALOR ORIGINAL!
+          </h1>
+          <br /><br />
+
+          <h1 class="titulo-desconto">
+            De <s class="desconto-vermelho">R$ 300,00</s> por apenas
+          </h1>
+          <br />
+          <h1 class="titulo-desconto">
+            <strong class="preco">R$ 67,00</strong> ou
+            <strong class="preco">12X de 6,63</strong>
+          </h1>
+          <br />
+          <h1 class="sub-titulo-pequeno">
+            Clique no botão laranja abaixo “Sim! Adicionar ao pacote” e adicione
+            esse programa ao seu pacote agora...
+          </h1>
+          <br />
+        </div>
+      </div>
+      <br />
+      <!-- ============== UPSELL ============== -->
+      <div style="text-align: center;"><a href="#" payt_action="oneclick_buy" data-object="RDAAWR-RAPBAR" style="background: rgb(40, 167, 69); color: rgb(255, 255, 255); padding: 12px; text-decoration: none; font-size: 16px; font-family: sans-serif; border-radius: 6px; display: block; margin: 10px auto; width: max-content;">
+
+			SIM, QUERO GARANTIR MINHA VAGA!
+
+		</a>
+
+<select payt_element='installment' data-object='RDAAWR-RAPBAR'></select>
+
+<script type="text/javascript" src="https://checkout.payt.com.br/multiple-oneclickbuyscript/9RK5Z4.js"></script>
+<a class="link" href="https://denovofeliz.online/obrigado/"              >Não, vou perder essa oportunidade</a>
+</div>
+          <br />
+          <div class="container">
+            <h1 class="sub-titulo-pequeno">
+              Além disso, como eu quero entregar mais e tornar IMPOSSÍVEL de
+              você falhar, vou dar mais um presente a você…
+              <br /><br />
+
+              Pode ser chamado como um bônus especial…
+              <br /><br />
+
+              Se você clicar no botão abaixo agora, vou adicionar ao seu pacote
+              outro programa separado que chamo de “Adeus Estrias”...
+              <br /><br />
+              Como você vai aumentar seu bumbum, provavelmente ele vai ficar com
+              um pouco de estria e isso é completamente normal…
+              <br /><br />
+              E provavelmente você já deve ter estrias ao redor do seu bumbum,
+              barriga e coxas que te incomodam.
+              <br /><br />
+              Esse programa adicional vai resolver esse problema!
+              <br /><br />
+            </h1>
+            <h1 class="sub-titulo">
+              E lembre-se que você ainda tem a minha garantia de 7 dias...
+              <br /><br />
+
+              Então, o seu risco é zero!
+              <br />
+            </h1>
+            <br />
+            <h1 class="sub-titulo-pequeno">
+              Método Antiflacidez <strong><s>R$400</s></strong>
+            </h1>
+            <br />
+            <h1 class="sub-titulo-pequeno">
+              Detox imediato <strong><s>R$147</s></strong>
+            </h1>
+            <h1 class="upsell-total">
+              Total: <strong><s>R$ 547</s></strong>
+            </h1>
+            <img src="../pz/assets/upsell2.png" width="300" alt="" />
+            <br /><br />
+          </div>
+        </div>
+        <br />
+      </div>
+    </main>
+    <!-- ============== RODAPÉ============== -->
+    <footer class="center">
+      <div class="banner-bottom">
+        <p>
+          <strong>Copyright 2023</strong><br />Todos os direitos reservados.
+        </p>
+        <div class="flex" style="justify-content: center">
+          <a>Termos de Uso &nbsp;|&nbsp; Políticas de Privacidade</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
